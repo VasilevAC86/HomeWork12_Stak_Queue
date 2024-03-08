@@ -1,0 +1,10 @@
+The first column  | The second column 
+9. Sophie Brown   | 2. Emily Evans
+6. Jack Brown     | 7. Thomas King
+4. Lily Wilson    | 1. Olivia Adamson
+3. Mia Flatcher   | 6. Jack Brown
+2. Emily Evans    | 5. Samuel Smith
+5. Samuel Smith   | 8. George Moore
+7. Thomas King    | 3. Mia Flatcher
+1. Olivia Adamson | 9. Sophie Brown
+8. George Moore   | 4. Lily Wilson
