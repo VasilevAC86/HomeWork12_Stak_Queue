@@ -29,6 +29,7 @@ int main() {
 	}
 	else { // Если файл не получилось открыть
 		std::cout << "\033[94mError opening file!\033[0m\n";
+		system("pause");
 		throw -1; // Кидаем исключение
 	}
 	std::stack<std::string> people_stack; // Создаём адптер контейнера типа FILO (последний добавленный элемент типа string будет извлечён первым)
@@ -85,6 +86,7 @@ int main() {
 		std::cout << "\nFile \033[93m" << path_result << "\033[0m is open for rewriting.\n";
 	else { // Если файл для записи открыть не удалось
 		std::cout << "\n\033[94mError opening file!\033[0m\n";
+		system("pause");
 		throw - 1; // Кидаем исключение
 	}
 	int size = people_queue.size(); // Кол-во людей в файле	= размеру очереди = размеру стэка
